@@ -1,0 +1,60 @@
+{
+    "categories":[
+        {
+            "id":1,
+            "name":"Living Room",
+            "image": "https://mail.google.com/mail/u/0?ui=2&ik=d9e36ada45&attid=0.4&permmsgid=msg-f:1777758383719655644&th=18abddd4be1528dc&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-H4uHlmmSJeIa3O8Pu9jAkovGHWuIX0l3eD7oqi67R11vsjB4dVxftr1dixcMNAPnrVC4kDjGxF1hdZWxM9QN0WLcX2w139fkUPfwVQkvNWtugGY_m7A0RlIY&disp=emb&realattid=18abdde002364ce91f31"
+            
+        },
+        {
+            "id":2,
+            "name":"Kitchen",
+            "image":"https://mail.google.com/mail/u/0?ui=2&ik=d9e36ada45&attid=0.3&permmsgid=msg-f:1777758383719655644&th=18abddd4be1528dc&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_k2-jo_D5R6ZbqlP7N1ry-V7rkQ_HvqZTJFiR1sOJGlHfXo10RihlVFmggRkCI1V5RZXefIBHKk5ivRbT1PlBf6eKhJuelIei7jz2UgOHG_GH_0m7i9LdQaFE&disp=emb&realattid=18abdde883a99a0d9ee5"
+        },
+        {
+            "id":3,
+            "name":"Bedrooms",
+            "image":"https://mail.google.com/mail/u/0?ui=2&ik=d9e36ada45&attid=0.6&permmsgid=msg-f:1777758383719655644&th=18abddd4be1528dc&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_WXtGEYVPNWvbu8-zvbu-SDosQ3IVzBFY3LD8PW_P2INdL2f4JX0B6ouQDJey2VCsaXyHhUQZtH15nx6diZy6RLmktLnGfWb72tZC-8bziQpjvtFvxMZiBXSc&disp=emb&realattid=18abddea1c9e44afeef6"
+        },
+        {
+            "id":4,
+            "name":"Kids Room",
+            "image": "https://mail.google.com/mail/u/0?ui=2&ik=d9e36ada45&attid=0.2&permmsgid=msg-f:1777758383719655644&th=18abddd4be1528dc&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9vzdn3g4CBft0c4QfJ2MgrkNMWOeIFsT-LiS9CW_W-yTpHtC7DZ0fM5egWm4d2HHZDhEY0VKOs0CniY4yl2AtVIR0NX7mNWOV77udpa7VAdF5MT-w-mslmdT4&disp=emb&realattid=18abdde43f944c8fec3"
+        },
+        {
+            "id":5,
+            "name":"Restrooms",
+            "image":"https://mail.google.com/mail/u/0?ui=2&ik=d9e36ada45&attid=0.1&permmsgid=msg-f:1777758383719655644&th=18abddd4be1528dc&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8wA_s5AbEH8TwOt2d7B63Sy9dvwIyVPA2EOjOHvcY_wRXc5XR5BwgCrn6w8JACZn__t1nk3gv_eGsi33o8hxDq7DxEkhZJCG5vajofT5VDIu3VUmpSYdGglIk&disp=emb&realattid=18abdde3360af78b6f42"
+        },
+        {
+            "id":6,
+            "name":"Office",
+            "image":"https://mail.google.com/mail/u/0?ui=2&ik=d9e36ada45&attid=0.5&permmsgid=msg-f:1777758383719655644&th=18abddd4be1528dc&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-AIk2wmozOBuHGdu7b4GGgJVPW_uBu9d4Ciy13fFO3dEABO8__uAc83rrHAzwR4xDTW8XBofWf_Qw9JdXuH1Fp55DRMHZFvHgp2m_SgsrYxQn0HbsEM0dbEpo&disp=emb&realattid=18abdde77444ef6b4ed4"
+        }
+    ],
+    
+        "bedrooms":[
+            {
+                "id":7,
+                "image":"https://usa-forum.d5cdn.com/optimized/2X/d/deb73ae24f5db9080d79e3edc8e1131f6186626b_2_526x500.png" 
+                
+            },
+            {
+                "id":8,
+                "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEIOFO2s8F1bFpsC9xsVK6_IV4LAQGKgi3KO34qJmvPWf_6BHZp5J1yna-nneGjk4Qv3M&usqp=CAU"
+            },
+            {
+                "id":9,
+                "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdTJSukbv9_n7KZpzQKuOMbfIDC-PMAWA9eQ&usqp=CAU"
+            },
+            {
+                "id":10,
+                "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCQI_R_MsQqhMcU-9n0lSnt4NNwsRd3YSdg&usqp=CAU"
+            },
+            {
+                "id":11,
+                "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5_En-F7M8dV4GjSSZ1bpPzZJVdO9Cm8dxkA&usqp=CAU"
+            }
+        ]
+    
+}
