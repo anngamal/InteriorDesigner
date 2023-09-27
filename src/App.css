@@ -2,7 +2,7 @@
   text-align: center;
 }
 body{
-  background-color: #e5e5e8 ;
+  background-color: #f9f9f9 ;
 }
 
 
@@ -43,6 +43,10 @@ width:200px;
 height:100px;
 }
 
+#fbLogo , #instaLogo{
+  width:23px;
+}
+
 
 
 #mainImg {
@@ -67,7 +71,7 @@ height:100px;
   background-color: rgba(255, 255, 255, 0.8); 
  
 }
-#signInBtn{
+#signUpBtn{
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
@@ -127,9 +131,10 @@ CARDS DESIGN FOR CATEGORIES */
 }
 
 /* m5ly elswr f nos el page +m5ly 3 swr bs f kolo row*/
-#Categoryimg{
+#Categoryimg , #bedroomImage , #livingroomImage , #kitchenImage ,#restrooms ,#offices , #kidsrooms, #coffeCornerImage, #balconyImage{
   width:300px;
   height: 200px;
+  padding:30px;
 }
 /* =============================
 Advertising: */
@@ -201,4 +206,200 @@ td img {
   width:200px;
  
   
+}
+#input1 , #input2{
+  display: block;
+  padding: 6px 1px; 
+  margin: 10 auto;
+  width:200px;
+  border: none;
+  border-bottom: 2px solid #5a6b5a;
+}
+#subscribeBtn{
+  background-color: #676967;
+  border: none;
+  color: white;
+  padding: 9px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/* 
+=======================
+custom furniture */
+
+#customFurniture{
+  display:flex;
+  flex-direction: row; 
+   margin-right: -15px;
+  margin-left: -15px;
+  padding: 50px;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+ #img1 , #img2{
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+}
+#h3customfurniture{
+ font-family:  "Algerian";
+}
+#p{
+font-family:"Bahnschrift";
+}
+/* =======================
+component images display  */
+#componentImages{
+  padding: 20px;
+  width:420px;
+  height:450px;
+  display: flex;
+}
+/* 
+==================
+signIn Component */
+#passwordSignUp , #usernameSignUp {
+  display: block;
+  padding: 8px 1px; 
+  margin: 10 auto;
+  width:300px;
+  border: none;
+  border-bottom: 2px solid #4CAF50;
+}
+#signUpSection{
+  background-image: url("./assets/signin.jpg");
+  padding: 0 100px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+#formInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.8);
+  width:500px;
+ padding:5px;
+ height: 600px;
+
+}
+#signUpBtn{
+  background-color: #5e9959; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#signUph1 , #signinP ,#linkSignIn{
+  color:white
+}
+
+/* ====================\
+contact us  */
+#contactUsSection{
+background-image: url(https://images.squarespace-cdn.com/content/v1/63753509864cec0753cb075a/134e2844-169d-4c13-9f0f-f5b175621152/ChathamHomeHeader-GIF-%281%29.gif);
+padding: 0 100px;
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100vh;
+}
+
+#contactUSformInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:rgba(204, 201, 201, 0.8);
+  width:500px;
+ padding:5px;
+ height: 600px;
+ border-radius: 50%;
+}
+#nameContact , #emailContact {
+  display: block;
+  padding: 10px 10px; 
+  margin: 10 auto;
+  width:200px;
+  border: none;
+  border-bottom: 2px solid #3131bd;
+  border-radius: 4px;
+}
+#msgContact{
+  display: block;
+  padding: 20px 10px; 
+  margin: 10 auto;
+  width:200px;
+  border: none;
+  border-bottom: 2px solid  #3131bd;
+  border-radius: 4px;
+}
+#ContactUsBtn{
+  background-color: #291cde; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+/* =================
+signIn */
+
+#pSigninHi{
+color:#f9f9f9;
+}
+
+#signInSection{
+  background-image: url("./assets/signin.jpg");
+  padding: 0 100px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+#formSignInInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:rgba(216, 210, 210, 0.8);
+  width:500px;
+ padding:5px;
+ height: 600px;
+
+}
+#usernameSignIn , #passwordSignIn {
+  display: block;
+  padding: 8px 1px; 
+  margin: 10 auto;
+  width:300px;
+  border: none;
+  border-bottom: 2px solid #4CAF50;
 }

@@ -22,9 +22,9 @@ export default function Footer(){
             </td>
             <td>
             <label>
-                        <input id="input1" type="text" placeholder="Your Email" />
+                        <input id="input1" type="text" placeholder="Email" />
                         <br></br>
-                        <input id="input2" type="text" placeholder="Your Phone Number" />
+                        <input id="input2" type="text" placeholder="Phone Number" />
                     </label>
                     <br></br>
             </td>
