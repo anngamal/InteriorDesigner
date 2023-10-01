@@ -56,7 +56,7 @@ useEffect(()=>{
         fetch(" http://localhost:8085/balcony")
         .then((res)=> res.json())
         .then((balconies)=>setBalconies(balconies))
-        console.log(balconies)
+        console.log( balconies)
       },[])
      
         const [corners, setCorners]= useState([])
@@ -95,7 +95,6 @@ useEffect(()=>{
       console.log(restrooms)
     },[])
     const [infos, setInfo] = useState([])
-    const [currentUser, setCurrentUser] = useState({ email: "", password: "" })
     const [messages,setMessages] =useState([])
     useEffect(() =>{
       fetch("  http://localhost:8085/contactUs")
@@ -105,47 +104,70 @@ useEffect(()=>{
     },[])
   return (
     <div className="App">
-     <Navbar user={user} />
+   
+  
     
-
-     <MainGallery />
+     <Switch>
+      <Route exact path="/">
+      <Navbar user={user} />
+    <MainGallery />
+    <CategoriesContainer />
+    <CustomFurniture />
+     <Footer />
+      </Route>
      <Route path="/contactUs">
+     <Navbar user={user} />
             <ContactUs setMessages={setMessages}/>
+            <CustomFurniture />
+     <Footer />
            </Route>
      <Route path="/signUp">
-     <SignUp setInfo={setInfo} setCurrentUser={setCurrentUser} currentUser={currentUser} />
+     <Navbar user={user} />
+     <SignUp setInfo={setInfo} setUser={setUser} user={user} />
+     <CustomFurniture />
+     <Footer />
      </Route>
 
      <Route path="/signIn">
+     <Navbar user={user} />
       <SignIn setUser={setUser}  user={user}/>
+      <CustomFurniture />
+     <Footer />
+
      </Route>
-    
-     <Switch>
       <Route exact path="/">
      <CategoriesContainer categories={categories}/>
      </Route>
       <Route path="/bedrooms">
-        <Bedrooms bedrooms={bedrooms} />
+      <Navbar user={user} />
+        <Bedrooms bedrooms={bedrooms} setBedrooms={setBedrooms}  user={user}/>
       </Route>
       <Route path="/balcony">
+      <Navbar user={user} />
         <Balcony balconies={balconies} />
       </Route>
       <Route path="/corners">
+      <Navbar user={user} />
         <CoffeCorner corners={corners} />
       </Route>
-      <Route path="/kidsBedrooms">
+      <Route path="/kidsrooms">
+      <Navbar user={user} />
         <KidsBedrooms kidsBedrooms={kidsBedrooms}/>
       </Route>
-      <Route path="/kitchens">
-        <Kitchens kitchens={kitchens} />
+      <Route path="/kitchen">
+      <Navbar user={user} />
+        <Kitchens kitchens={kitchens} user={user} setKitchens={setKitchens} />
       </Route>
-      <Route path="/livingrooms">
-        <LivingRooms livingrooms={livingrooms} />
+      <Route path="/livingroom">
+      <Navbar user={user} />
+        <LivingRooms livingrooms={livingrooms} setLivingRooms={setLivingRooms}  user={user}/>
       </Route>
       <Route path="/offices">
+      <Navbar user={user} />
         <Offices offices={offices} />
       </Route>
       <Route path="/restrooms">
+      <Navbar user={user} />
         <Restrooms restrooms={restrooms} />
       </Route>
       <Route path="/instagram">
@@ -156,10 +178,6 @@ useEffect(()=>{
       </Route>
 
       </Switch>
-      <CustomFurniture />
-     
-
-     <Footer />
      
    
     </div>

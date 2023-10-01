@@ -1,17 +1,19 @@
 
-
-export default function Kitchens({kitchens}){
-
+import {useState} from 'react'
+import KitchensCard from './KitchensCard'
+export default function Kitchens({kitchens , user, setKitchens}){
+  
 
     return(
         <div>
               <ul className="cards">
                 {kitchens.map((kitchen)=>(
-                   <div key={kitchen.id}>
-                    <img id="componentImages" src={kitchen.image}/>
-                   </div> 
-                ))}
+               <KitchensCard kitchen={kitchen} setKitchens={setKitchens} user={user} />
+         ))}
             </ul>
         </div>
     )
 }
+
+
+

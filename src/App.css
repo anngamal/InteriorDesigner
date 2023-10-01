@@ -17,7 +17,7 @@ body{
   color: rgb(255, 254, 254);
 }
 
-#navbarLinks{
+#navbarLinks {
 
 display: flex;
 font-family:Arial, sans-serif;
@@ -369,6 +369,8 @@ signIn */
 
 #pSigninHi{
 color:#f9f9f9;
+margin: 0;
+
 }
 
 #signInSection{
@@ -402,4 +404,40 @@ color:#f9f9f9;
   width:300px;
   border: none;
   border-bottom: 2px solid #4CAF50;
+}
+
+
+
+.allCategories-card {
+  perspective: 1000px;
+}
+
+.allCategories-image-container {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.allCategories-image {
+  width: 100%;
+  transform: rotateY(0deg);
+  transition: transform 0.5s;
+  padding: 20px;
+  width:420px;
+  height:450px;
+  display: flex;
+}
+
+.allCategories-image:hover {
+  transform: rotateY(180deg);
+}
+
+.likes {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
 }

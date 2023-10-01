@@ -15,7 +15,7 @@ export default function Navbar({user}){
                 <img id="logoInNav" src={image} alt="logo" />
             </div>
             <div id="navbarLinks">
-                {user.username ? <p id="pSigninHi">hello {user.username}</p>: null }
+            {user.username ? <p id="pSigninHi">Hello {user.username} !</p>: null }
                 <Link to="/">Home</Link>
                 <Link to="/contactUs">Contact Us</Link>
                 <Link to="/instagram">
@@ -24,6 +24,7 @@ export default function Navbar({user}){
                 <Link to="/facebook">
                     <img onClick={handleFbClick}id="fbLogo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy-TNGkP2z9MW5mV_i2QJsFfO3fxkzPZdieA&usqp=CAU" />
                 </Link>
+              
             </div>
         </nav>
     </div>
