@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Interior Designer Website
+
 ![image](./public/dalia.gif)
 
 
