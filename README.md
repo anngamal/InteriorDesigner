@@ -14,6 +14,7 @@ I focused on how the website should look like a lot because we wanted to have a 
 
 ## Here are some tips to navigate the website 
 1- Run npm install && npm run server inside of the terminal
+
 2- Open a new terminal and add "npm start"
 
 
