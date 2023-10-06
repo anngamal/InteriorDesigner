@@ -2,13 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Image](./public/dalia.gif)
+![image](./public/dalia.gif)
 
 
 
 ## Available Scripts
 
-![Image](./dalia.gif)
+![image](./dalia.gif)
 
 This is a project for an interior designer to show her work. It has different categories and functions so her clients can easily navigate to see all of her work.
 It is also a community her clients can sign up/in and write comments or add likes so the owner can keep track of her clients.
