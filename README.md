@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Interior designer website details ]([https://myoctocat.com/assets/images/base-octocat.svg](https://www.loom.com/share/d1674c10f5604dc49849a26a20e7ec9e))
+![Interior designer website details ](/Dalia Designer - Made with Clipchamp.gif))
 
 
 
