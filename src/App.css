@@ -441,3 +441,11 @@ margin: 0;
   cursor: pointer;
   outline: none;
 }
+#comments{
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
